@@ -1,19 +1,4 @@
-body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
-}
-
 .navbar {
-  margin-bottom: 0;
-}
-
-.jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-
-.jumbotron p:last-child {
   margin-bottom: 0;
 }
 
@@ -55,4 +40,78 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.remix {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+@media(max-width: 767px) {
+  .studio {
+    flex-wrap: wrap;
+    padding-left: 0px !important;
+    justify-content: center;
+  }
+
+  .EP {
+    flex-wrap: wrap;
+  }
+
+  .EP1, .EP3 {
+    margin-right: 0px !important;
+  }
+
+  .EP2 {
+    margin-left: 0px !important;
+  }
+
+  .comp {
+    flex-wrap: wrap;
+  }
+
+  .comp1 {
+    margin-right: 0px !important;
+  }
+
+  .comp2 {
+    margin-left: 0px !important;
+  }
+
+  .img1 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 25px;
+  }
+}
+
+@media(max-width: 767px) {
+  .bio {
+    flex-wrap: wrap;
+    max-width: 0px;
+    max-height: 0px;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+
+  .edrecwrap {
+    flex-wrap: wrap;
+  }
+
+  .hrule {
+    width: 200px;
+  }
+}
+
+@media(max-width: 575px) {
+  .breakbot {
+    max-width: 325px !important;
+    max-height: 195px !important;
+  }
 }

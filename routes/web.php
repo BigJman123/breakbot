@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'HomeController@index');
+Route::get('/discography', 'DiscController@index');
+Route::get('/bio', 'BioController@index');
+Route::get('/edrec', 'EdRecController@index');
